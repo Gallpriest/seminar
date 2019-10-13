@@ -15,6 +15,9 @@
     max-width: 300px;
     word-break: break-all;
     margin: var( --medium) 0;
+    background-color: red;
+    color: white;
+    padding: 0 var(--medium);
 }
 
 .meme > .topText {

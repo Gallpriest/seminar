@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import * as cssMod from './Main.css';
 import Form from '../Form';
 import MemeZone from '../MemeZone';
-import MemeStartImage from '../../assets/images/meme_plus.jpg';
+import MemeStartImage from '../../assets/images/meme_minus.jpg';
 
 const Main = () => {
     const [values, setValues] = useState({
@@ -14,7 +14,8 @@ const Main = () => {
     const urlMemes = 'https://api.imgflip.com/get_memes';
 
     const handleChange = (name, value) => setValues({ ...values, [name]: value });
-    const handleGenerateMeme = () => {
+    const handleGenerateMeme = event => {
+        event.preventDefault();
         const randNumber = Math.floor(Math.random() * allMemes.length);
         const randMemeImage = allMemes[randNumber].url;
         setMemeImage(randMemeImage);
@@ -24,10 +25,10 @@ const Main = () => {
         fetch(urlMemes)
             .then(data => data.json())
             .then(response => {
-                const { memes } = response.data
+                const { memes } = response.data;
                 setMemes(memes);
             });
-    }, []);
+    }, [allMemes]);
 
     return (
         <main className={cssMod.main}>
