@@ -1,0 +1,13 @@
+.main {
+    margin-top: var(--big);
+    display: flex;
+    padding: 0 var(--medium);
+}
+
+.main > section:first-child {
+    flex-basis: 30%;
+}
+
+.main > section:last-child {
+    flex-basis: 70%;
+}

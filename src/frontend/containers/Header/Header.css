@@ -1,0 +1,22 @@
+.header {
+    padding: var(--small) var(--medium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerName {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.headerName > img {
+    width: 6.25rem;
+    margin-right: var(--medium);
+}
+
+.headerName > h1 {
+    margin: 0;
+    font-weight: 400;
+}

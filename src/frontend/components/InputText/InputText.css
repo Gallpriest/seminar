@@ -1,0 +1,14 @@
+.inputText {
+    width: 100%;
+    padding: var(--small);
+    font-size: var(--fs-small);
+    margin-bottom: var(--big);
+    box-sizing: border-box;
+}
+
+.label {
+    margin-bottom: var(--small);
+    font-style: italic;
+    font-weight: 400;
+    font-size: var(--fs-small);
+}

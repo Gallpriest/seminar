@@ -1,0 +1,26 @@
+.meme {
+    max-width: 36.75rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.meme > img {
+    width: 100%;
+}
+
+.meme > h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
+    word-break: break-all;
+    margin: var( --medium) 0;
+}
+
+.meme > .topText {
+    top: 0;
+}
+
+.meme > .bottomText {
+    bottom: 0;
+}
