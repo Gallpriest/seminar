@@ -12,6 +12,9 @@ const Header = () => {
                 />
                 <h1>Meme Generator</h1>
             </div>
+            <span>
+                Author: Anton Datsyuk
+            </span>
         </header>
     )
 };

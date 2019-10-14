@@ -6,4 +6,6 @@ html {
     font-size: 16px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--color-flash);
+    color: var(--color-black);
 }

@@ -2,7 +2,7 @@
     padding: var(--small) var(--medium);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .headerName {
@@ -12,6 +12,7 @@
 }
 
 .headerName > img {
+    border: 1px solid;
     width: 6.25rem;
     margin-right: var(--medium);
 }
@@ -19,4 +20,9 @@
 .headerName > h1 {
     margin: 0;
     font-weight: 400;
+}
+
+.header > span {
+    font-size: calc(var(--fs-small) - 0.125rem);
+    color: var(--color-grey);
 }

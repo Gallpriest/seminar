@@ -2,6 +2,7 @@ import React from 'react';
 import * as cssMod from './Form.css';
 import { INPUTS } from './Form.mock';
 import InputText from '../../components/InputText';
+import Button from '../../components/Button';
 
 const Form = ({ handleFormChange, handleGenerateMeme }) => {
     const onInputChange = event => {
@@ -23,7 +24,10 @@ const Form = ({ handleFormChange, handleGenerateMeme }) => {
         <form className={cssMod.form}>
             { inputFields }
             <div className={cssMod.formBtn}>
-                <button onClick={handleGenerateMeme}>Generate new image</button>
+                <Button
+                    text="Generate new image"
+                    onClick={handleGenerateMeme}
+                />
             </div>
         </form>
     )

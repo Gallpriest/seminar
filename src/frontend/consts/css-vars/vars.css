@@ -11,5 +11,12 @@
     --fs-big: 1.5rem; /* 24px */
 
     /* colors */
+    --color-white: #ffffff;
+    --color-poppy: #fa983a;
+    --color-flash: #f1f2f6;
+    --color-black: #1e272e;
+    --color-grey: #95a5a6;
 
+    /* hovers */
+    --hover-poppy: #fa983ad8;
 }
