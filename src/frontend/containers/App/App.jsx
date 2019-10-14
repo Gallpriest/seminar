@@ -1,14 +1,12 @@
 import React from 'react';
-import * as cssMod from './App.css';
-import Header from '../Header';
-import Main from '../Main';
+import Wrap from '../Wrap';
+import { ContextProvider } from '../../context/ControlContext';
 
 const App = () => {
     return (
-        <div className={cssMod.app}>
-            <Header />
-            <Main />
-        </div>
+        <ContextProvider>
+            <Wrap />
+        </ContextProvider>
     )
 };
 

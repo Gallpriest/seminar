@@ -5,8 +5,6 @@ const Button = props => {
     const { 
         text,
         onClick,
-        disabled,
-        icon
     } = props;
 
     return (

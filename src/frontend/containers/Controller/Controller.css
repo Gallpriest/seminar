@@ -1,0 +1,10 @@
+.controller {
+    position: absolute;
+    display: inline-block;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+.controller > button + button {
+    margin-left: -0.0625rem;
+}

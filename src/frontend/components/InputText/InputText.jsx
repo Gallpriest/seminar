@@ -9,7 +9,7 @@ const InputText = props => {
         name
     } = props;
 
-    const htmlLabel = label && <div className={cssMod.label}>{ label }</div>
+    const htmlLabel = label && <label className={cssMod.label}>{ label }</label>
 
     return (
         <Fragment>

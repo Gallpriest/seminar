@@ -7,7 +7,6 @@
     outline: none;
     border: 1px solid var(--color-poppy);
     background-color: var(--color-poppy);
-    color: var(--color-white);
     padding: var(--small) var(--medium);
     font-size: var(--f-small);
     transition: all 0.15s ease-in-out;
