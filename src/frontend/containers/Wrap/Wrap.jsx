@@ -13,13 +13,7 @@ const Wrap = () => {
         case 1:
             HTML_TEMPLATE = null;
             break;
-        case 2:
-            HTML_TEMPLATE = (
-                <Header />
-            );
-            break;
-        case 3:
-        case 4:
+        default:
             HTML_TEMPLATE = (
                 <Fragment>
                     <Header />
@@ -27,7 +21,6 @@ const Wrap = () => {
                 </Fragment>
             );
             break;
-        case 4:
     }
 
     return (
