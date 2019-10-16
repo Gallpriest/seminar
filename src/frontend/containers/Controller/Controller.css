@@ -1,5 +1,5 @@
 .controller {
-    position: absolute;
+    position: fixed;
     display: inline-block;
     left: 2rem;
     bottom: 2rem;

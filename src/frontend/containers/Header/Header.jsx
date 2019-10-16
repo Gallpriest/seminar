@@ -3,11 +3,6 @@ import MemeHeader from '../../assets/images/meme_header.jpg';
 import * as cssMod from './Header.css';
 import { useControlContext } from '../../context/ControlContext';
 
-/**
- * Задача №1
- * 
- */
-
 const Header = () => {
     const { pageState } = useControlContext();
 

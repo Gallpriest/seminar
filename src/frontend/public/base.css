@@ -1,5 +1,6 @@
 body,
-html {
+html,
+#root {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -9,3 +10,4 @@ html {
     background-color: var(--color-flash);
     color: var(--color-black);
 }
+
